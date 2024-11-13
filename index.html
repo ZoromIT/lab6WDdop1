@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БерезаМебель</title>
+    <link rel="stylesheet" href="styles.css"> 
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .about, .gallery, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        .gallery img {
+            width: calc(33% - 10px);
+            margin-right: 15px; 
+   margin-bottom :15px; 
+   height:auto; 
+   display:inline-block; 
+  }
+  .gallery img:last-child {margin-right :0;}
+  
+  form input[type="text"], form input[type="email"], form textarea {
+   width :100%; 
+   padding :10px; 
+   margin-bottom :10px; 
+   border-radius :5px; 
+   border :1 px solid #ccc ;
+  }
+  
+  form button{
+      background-color:#333 ;
+      color:white ;
+      border:none ;
+      padding :10 px ; 
+      cursor:pointer ; 
+      border-radius :5 px ;  
+     } 
+    
+
+     
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>БерезаМебель</h1>
+</header>
+
+<nav>
+    <a href="#about">О нас</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="container">
+
+    <section id="about" class="about">
+        <h2>О нас</h2>
+        <p>БерезаМебель – это высококачественная мебель, индивидуальный подход и опыт работы на рынке более 10 лет. Мы создаем уникальные изделия для вашего дома и офиса.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Галерея продукции</h2>
+        
+          
+          <img src="Gostinaya-Orta-interer-1024x576-1.webp" alt="Продукт 1">
+          <img src="kuhnya-s-portalom-13-1024x576.jpg" alt="Продукт 2">
+          <img src="Valensiya_Sen-Denis_white-1024x576.jpg" alt="Продукт 3">
+        
+      
+    
+      </section >
+
+<section id =" contact "class =" contact ">
+<h2 > Контактная информация </h2 >
+<p > Телефон :(123)456-7890 </p >
+<p > Email :info@berezamebel.ru </p >
+
+<form action ="#" method ="post ">
+<input type ="text "name ="name "placeholder ="Ваше имя "required >
+<input type ="email "name ="email "placeholder ="Ваш email "required >
+<textarea name =message placeholder =Сообщение сообщение required ></textarea >
+<button type =submit > Отправить сообщение </button >
+</form >
+
+   </section >
+
+   </div >
+
+   </body >
+   </html >
